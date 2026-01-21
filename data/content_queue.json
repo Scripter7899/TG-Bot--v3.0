@@ -1,0 +1,34 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "type": "text",
+            "content": "Hello! This is an automated post from our community.",
+            "groups": [
+                "all"
+            ],
+            "schedule": "daily",
+            "enabled": true
+        },
+        {
+            "id": 2,
+            "type": "text",
+            "content": "Check out our latest updates!",
+            "groups": [
+                "crypto"
+            ],
+            "schedule": "hourly",
+            "enabled": true
+        }
+    ],
+    "templates": {
+        "daily_greeting": "Good morning! Today is {date}. Have a great day!",
+        "weekly_update": "Weekly update for {week}: {content}"
+    },
+    "settings": {
+        "rotate_posts": true,
+        "skip_duplicates_days": 7,
+        "default_delay_min": 120,
+        "default_delay_max": 300
+    }
+}

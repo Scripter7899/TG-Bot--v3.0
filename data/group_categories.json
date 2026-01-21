@@ -1,0 +1,40 @@
+{
+    "categories": {
+        "crypto": {
+            "name": "Cryptocurrency Groups",
+            "groups": [
+                "@cryptogroup1",
+                "@cryptogroup2",
+                "@bitcointrading"
+            ],
+            "content_template": "crypto_updates"
+        },
+        "tech": {
+            "name": "Technology Groups",
+            "groups": [
+                "@techgroup1",
+                "@programminggroup"
+            ],
+            "content_template": "tech_news"
+        },
+        "marketing": {
+            "name": "Marketing Groups",
+            "groups": [
+                "@marketinggroup1",
+                "@digitalmarketing"
+            ],
+            "content_template": "marketing_tips"
+        },
+        "general": {
+            "name": "General Groups",
+            "groups": [],
+            "content_template": "general_updates"
+        }
+    },
+    "content_by_category": {
+        "crypto": "Latest crypto market updates and trading signals!",
+        "tech": "New technology trends and programming tips!",
+        "marketing": "Marketing strategies and growth hacks!",
+        "general": "General community updates and announcements!"
+    }
+}
